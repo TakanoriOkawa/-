@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kosugi', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  opacity: 0.9;
+  background-image: linear-gradient(30deg, #004a96 12%, transparent 12.5%, transparent 87%, #004a96 87.5%, #004a96), linear-gradient(150deg, #004a96 12%, transparent 12.5%, transparent 87%, #004a96 87.5%, #004a96), linear-gradient(30deg, #004a96 12%, transparent 12.5%, transparent 87%, #004a96 87.5%, #004a96), linear-gradient(150deg, #004a96 12%, transparent 12.5%, transparent 87%, #004a96 87.5%, #004a96), linear-gradient(60deg, #004a9677 25%, transparent 25.5%, transparent 75%, #004a9677 75%, #004a9677), linear-gradient(60deg, #004a9677 25%, transparent 25.5%, transparent 75%, #004a9677 75%, #004a9677);
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 37px 65px, 37px 65px, 0 0, 37px 65px;
+}
+
+body .container {
+  width: 100%;
+}
+
+body .container #title {
+  text-align: center;
+  padding: 20px 0px;
+  color: #004a96;
+  background-color: #fff;
+}
+
+body .container .inputArea {
+  max-width: 400px;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+
+body .container .inputArea #alertText {
+  color: #8fc7ff;
+  margin-bottom: 5px;
+  background-color: black;
+  font-size: 1rem;
+}
+
+body .container .inputArea .input {
+  width: 70%;
+  height: 31px;
+  font-size: 1rem;
+}
+
+body .container .inputArea .clickBtn {
+  width: 20%;
+  height: 35px;
+  font-size: 1rem;
+}
+
+body .container .addText {
+  font-size: 20px;
+  position: relative;
+  padding: 26px 26px 18px 50px;
+  margin: 0;
+  margin-top: 1px;
+  border: 1px solid gray;
+  color: #333;
+  background-color: whitesmoke;
+}
+
+body .container .addText .dayInfo {
+  display: block;
+  color: gray;
+  font-size: 10px;
+  text-align: right;
+}
+
+body .container .addText .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: #004a96;
+}
+
+body .container .addText .block:nth-child(2) {
+  top: 0px;
+  left: 20px;
+}
+
+body .container .addText .block:nth-child(3) {
+  top: 20px;
+  left: 0px;
+}
+
+body .container .addText .block:nth-child(4) {
+  top: 20px;
+  left: 20px;
+}
+
+body .container .addText .block:nth-child(5) {
+  top: 10px;
+  left: 10px;
+}
+
+body .container .addTextBox .listDown {
+  -webkit-animation: downAnime 0.4s ease both;
+          animation: downAnime 0.4s ease both;
+}
+
+body .container .addTextBox .addEvent {
+  -webkit-animation: slideAnime 0.4s ease both;
+          animation: slideAnime 0.4s ease both;
+}
+
+@-webkit-keyframes slideAnime {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes slideAnime {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes downAnime {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(77px);
+            transform: translateY(77px);
+  }
+}
+
+@keyframes downAnime {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(77px);
+            transform: translateY(77px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
