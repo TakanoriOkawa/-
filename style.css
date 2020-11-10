@@ -57,6 +57,7 @@ body .container .addText {
   border: 1px solid gray;
   color: #333;
   background-color: whitesmoke;
+  word-wrap: break-word;
 }
 
 body .container .addText .dayInfo {
